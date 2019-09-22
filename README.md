@@ -10,6 +10,8 @@ Elixir 1.8
 
 Para instalar Elixir en Ubuntu 19.04:
 	```bash
+
+
 	$ wget https://packages.erlang-solutions.com/erlang-solutions_1.0_all.deb && sudo dpkg -i erlang-solutions_1.0_all.deb
 
 	$ sudo apt-get update
