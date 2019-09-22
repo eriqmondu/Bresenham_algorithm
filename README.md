@@ -6,9 +6,8 @@
 
 Clonar este repositorio:
 
-	```bash
 	git clone https://github.com/eriqmondu/Bresenham_algorithm.git
-	```
+
 
 Elixir 1.8
 
