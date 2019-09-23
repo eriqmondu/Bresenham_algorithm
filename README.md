@@ -1,11 +1,13 @@
 ![elixir](tecnologia-elixir.jpg)
 
 
-# BresenhamAlgorithmElixir
+# BresenhamAlgorithmElixir v1.0
 
-**TODO: Add description**
+**Creado por Erik Valdez Mondragón**
+Facultad de Ingeniería, UNAM
+Computación Gráfica e Interacción Humano-Computadora
 
-## Installation
+## Instrucciones de instalación
 
 Clonar este repositorio
 
@@ -30,7 +32,27 @@ Navegar a la carpeta con el programa, compilar y ejecutar desde bash
 	mix escript.build
 	./bresenham_algorithm_elixir
 	
-Ingresar los valores para (X1, Y1) y (X2, Y2) para obtener una lista con los píxeles a dibujar para dicha línea
+Ingresar los valores para (X1, Y1) y (X2, Y2) para obtener una lista con los píxeles a dibujar de la línea:
+
+	ALGORITMO DE BRESSENHAM PARA EL DIBUJADO DE LÍNEAS
+
+	Coordenadas punto inicial
+	X1: 5
+	Y1: 16
+	Coordenadas punto final
+	X2: -4
+	Y2: 7
+	Los puntos a dibujar son los siguientes: 
+	[-4, 7]
+	[-3, 8]
+	[-2, 9]
+	[-1, 10]
+	[0, 11]
+	[1, 12]
+	[2, 13]
+	[3, 14]
+	[4, 15]
+	[5, 16]
 
 If [available in Hex](https://hex.pm/docs/publish), the package can be installed
 by adding `bresenham_algorithm_elixir` to your list of dependencies in `mix.exs`:
