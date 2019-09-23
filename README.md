@@ -37,33 +37,24 @@ Ingresar los valores para (X1, Y1) y (X2, Y2) para obtener una lista con los pí
 	ALGORITMO DE BRESSENHAM PARA EL DIBUJADO DE LÍNEAS
 
 	Coordenadas punto inicial
-	X1: 5
-	Y1: 16
+	X1: 2
+	Y1: 25
 	Coordenadas punto final
-	X2: -4
-	Y2: 7
-	Los puntos a dibujar son los siguientes: 
-	[-4, 7]
-	[-3, 8]
-	[-2, 9]
-	[-1, 10]
-	[0, 11]
-	[1, 12]
-	[2, 13]
-	[3, 14]
-	[4, 15]
-	[5, 16]
-
-If [available in Hex](https://hex.pm/docs/publish), the package can be installed
-by adding `bresenham_algorithm_elixir` to your list of dependencies in `mix.exs`:
-
-```elixir
-def deps do
-  [
-    {:bresenham_algorithm_elixir, "~> 1.0.0"}
-  ]
-end
-```
+	X2: -7
+	Y2: 14 
+	Los píxeles a dibujar son los siguientes: 
+	[-7, 14]
+	[-6, 15]
+	[-5, 16]
+	[-5, 17]
+	[-4, 18]
+	[-3, 19]
+	[-2, 20]
+	[-1, 21]
+	[0, 22]
+	[0, 23]
+	[1, 24]
+	[2, 25]
 
 Documentation can be generated with [ExDoc](https://github.com/elixir-lang/ex_doc)
 and published on [HexDocs](https://hexdocs.pm). Once published, the docs can
