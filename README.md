@@ -4,7 +4,9 @@
 # BresenhamAlgorithmElixir v1.0
 
 **Creado por Erik Valdez Mondragón**
+
 Facultad de Ingeniería, UNAM
+
 Computación Gráfica e Interacción Humano-Computadora
 
 ## Instrucciones de instalación
