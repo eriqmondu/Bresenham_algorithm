@@ -1,11 +1,16 @@
+#Elixir 1.9 en Ubuntu 19.04
+#Valdez Mondragón Erik
+#Computación Gráfica e Interacción Humano-Computadora
+#septiembre 22, 2019
+
 defmodule BresenhamAlgorithmElixir do
 
   def main(_args) do
     IO.puts("ALGORITMO DE BRESSENHAM PARA EL DIBUJADO DE LÍNEAS\n")
 
-    IO.puts("Coordenadas punto inicial")
+    IO.puts("Coordenadas punto inicial (enteros)")
     start_points = [IO.gets("X1: "), IO.gets("Y1: ")]
-    IO.puts("Coordenadas punto final")
+    IO.puts("Coordenadas punto final (enteros)")
     end_points = [IO.gets("X2: "), IO.gets("Y2: ")]
 
     #conversión de cadena de texto a entero
@@ -62,12 +67,12 @@ defmodule BresenhamAlgorithmElixir do
     :ok
   end
 
+  #Conversión de cadena de texto a enteros
   def string_to_int(points) do
     [x, y] = points
     x = String.to_integer(String.trim_trailing(x))
     y = String.to_integer(String.trim_trailing(y))
     [x, y]
   end
-
 
 end
