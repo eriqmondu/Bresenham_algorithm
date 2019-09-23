@@ -3,7 +3,7 @@
 
 # BresenhamAlgorithmElixir v1.0
 
-**Creado por Erik Valdez Mondragón**
+**Implementado por: Erik Valdez Mondragón**
 
 Facultad de Ingeniería, UNAM
 
